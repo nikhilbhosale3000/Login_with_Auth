@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 235, 218);
+  padding: 0.8rem 1.5rem;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 2.7rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar button {
+  padding: 0.5rem 0.7rem;
+  margin-left: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0a369d;
+  font-size: 1.2rem;
+}
+
+.navbar button:hover {
+  background-color: #2048a5;
+}
